@@ -1,0 +1,8 @@
+Release 13.4 Drc O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Thu Jul 05 18:15:00 2018
+
+drc -z one_bit_cntr.ncd one_bit_cntr.pcf
+
+DRC detected 0 errors and 0 warnings.

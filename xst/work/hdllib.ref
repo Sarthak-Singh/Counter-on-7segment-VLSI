@@ -1,0 +1,4 @@
+MO clk_for_d0 NULL clk_for_d0.v vlg53/clk__for__d0.bin 1530857333
+MO seq NULL seq.v vlg25/seq.bin 1530787630
+MO Seg_Display NULL Seg_Display.v vlg4C/_seg___display.bin 1530787987
+MO one_bit_cntr NULL one_bit_cntr.v vlg52/one__bit__cntr.bin 1530857333

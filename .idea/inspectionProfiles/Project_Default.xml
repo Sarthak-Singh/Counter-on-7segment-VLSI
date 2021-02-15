@@ -1,0 +1,65 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E265" />
+          <option value="E114" />
+          <option value="E117" />
+          <option value="E116" />
+          <option value="E901" />
+          <option value="E113" />
+          <option value="E127" />
+          <option value="E129" />
+          <option value="E128" />
+          <option value="E125" />
+          <option value="E262" />
+          <option value="E301" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N802" />
+          <option value="N813" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="type" />
+          <option value="dir" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnboundLocalVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.db.models.fields.CharField.__add__" />
+          <option value="music.models.Album.objects" />
+          <option value="music.models.Album.DoesNotExist" />
+          <option value="music.models.Song.DoesNotExist" />
+          <option value="products.models.Product.*" />
+          <option value="blog.models.Article.id" />
+          <option value="resume.models.About.*" />
+          <option value="resume.models.Social.objects" />
+          <option value="resume.models.Skill_category.*" />
+          <option value="resume.models.Skill.*" />
+          <option value="resume.models.Training.*" />
+          <option value="resume.models.Project.*" />
+          <option value="resume.models.Port_Filter.*" />
+          <option value="resume.models.Port_Column.*" />
+          <option value="resume.models.Port_Item.*" />
+          <option value="resume.models.Contact.*" />
+          <option value="resume.forms.isValidEmail" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

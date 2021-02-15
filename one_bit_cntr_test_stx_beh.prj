@@ -1,0 +1,4 @@
+verilog isim_temp "clk_for_d0.v"
+verilog isim_temp "one_bit_cntr.v"
+verilog isim_temp "one_bit_cntr_test.v"
+verilog isim_temp "C:/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v"

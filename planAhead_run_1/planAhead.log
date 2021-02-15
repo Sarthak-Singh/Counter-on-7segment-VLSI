@@ -1,0 +1,84 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4 (64-bit)
+# Build 157570 by hdbuild on Fri Dec 16 13:06:31 MST 2011
+# Start of session at: Thu Jul 05 17:30:51 2018
+# Process ID: 864
+# Log file: E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/planAhead_run_1/planAhead.log
+# Journal file: E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common-78] Attempting to get a license: PlanAhead
+INFO: [Common-82] Got a license: PlanAhead
+INFO: [Common-86] Your PlanAhead license expires in -1860 day(s)
+INFO: [Device-25] Loading parts and site information from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\arch.xmlParsing RTL primitives file [C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+start_gui
+source E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/pa.fromHdl.tcl
+# create_project -name Project_7seg_disp -dir "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/planAhead_run_1" -part xc3s500efg320-4
+Parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\verilog.xml].
+Finished parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\verilog.xml].
+Parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
+Finished parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
+Parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\ucf.xml].
+Finished parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\ucf.xml].
+Qt: Untested Windows version 6.2 detected!
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "one_bit_cntr.ucf" [current_fileset -constrset]
+Adding file 'E:\SARTHAK\Stuff\VLSI\Project_7seg_disp\one_bit_cntr.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {clk_for_d0.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {one_bit_cntr.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top one_bit_cntr $srcset
+# add_files [list {one_bit_cntr.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500efg320-4
+INFO: [PlanAhead-58] Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+Analyzing Verilog file "E:\SARTHAK\Stuff\VLSI\Project_7seg_disp\clk_for_d0.v" into library work
+Analyzing Verilog file "E:\SARTHAK\Stuff\VLSI\Project_7seg_disp\one_bit_cntr.v" into library work
+INFO: [PlanAhead-430] Reading macro library C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device-19] Loading pkg sso from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing-77] Reading timing library C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing-34] Done reading timing library C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [E:\SARTHAK\Stuff\VLSI\Project_7seg_disp\one_bit_cntr.ucf]
+Finished Parsing UCF File [E:\SARTHAK\Stuff\VLSI\Project_7seg_disp\one_bit_cntr.ucf]
+INFO: [PlanAhead-566] Unisim Transformation Summary:
+No Unisim elements were transformed.open_rtl_design: Time (s): 11.245w.  Memory (MB): 639.914p 122.723g
+startgroup
+startgroup
+set_property loc PAD71 [get_ports {a[0]}]
+set_property loc PAD71 [get_ports {a[0]}]
+endgroup
+endgroup
+startgroup
+startgroup
+set_property loc PAD79 [get_ports {a[1]}]
+set_property loc PAD79 [get_ports {a[1]}]
+endgroup
+endgroup
+startgroup
+startgroup
+set_property loc PAD61 [get_ports {a[2]}]
+set_property loc PAD61 [get_ports {a[2]}]
+endgroup
+endgroup
+startgroup
+startgroup
+set_property loc PAD67 [get_ports {a[3]}]
+set_property loc PAD67 [get_ports {a[3]}]
+endgroup
+endgroup
+save_design
+exit
+stop_gui
+INFO: [PlanAhead-261] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead

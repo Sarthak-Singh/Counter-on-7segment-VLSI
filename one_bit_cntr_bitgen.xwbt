@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\SARTHAK\Stuff\VLSI\Project_7seg_disp\one_bit_cntr.ncd
+OUTFILE=E:\SARTHAK\Stuff\VLSI\Project_7seg_disp\one_bit_cntr.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=E:\SARTHAK\Stuff\VLSI\Project_7seg_disp
+LICENSE=WebPack
+USER_INFO=177399848_0_0_976

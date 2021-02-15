@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4 (64-bit)
+# Build 157570 by hdbuild on Fri Dec 16 13:06:31 MST 2011
+# Start of session at: Thu Jul 05 17:30:51 2018
+# Process ID: 864
+# Log file: E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/planAhead_run_1/planAhead.log
+# Journal file: E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/pa.fromHdl.tcl
+startgroup
+set_property loc PAD71 [get_ports {a[0]}]
+endgroup
+startgroup
+set_property loc PAD79 [get_ports {a[1]}]
+endgroup
+startgroup
+set_property loc PAD61 [get_ports {a[2]}]
+endgroup
+startgroup
+set_property loc PAD67 [get_ports {a[3]}]
+endgroup
+save_design
+exit
+stop_gui

@@ -1,0 +1,29 @@
+Command line:
+   one_bit_cntr_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60399
+
+Sun Jul 08 21:17:29 2018
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5323.67 Meg
+
+ Total Signals          : 17
+ Total Nets             : 27
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 176
+Total Line Count : 43
+
+ Total Simulation Time: 593.172 sec
+
+ Current Memory Usage: 5323.67 Meg
+
+Sun Jul 08 21:34:34 2018
+

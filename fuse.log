@@ -1,0 +1,19 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/SARTHAK/Stuff/Coding/VLSI/Project_7seg_disp/one_bit_cntr_isim_beh.exe -prj E:/SARTHAK/Stuff/Coding/VLSI/Project_7seg_disp/one_bit_cntr_beh.prj work.one_bit_cntr work.glbl 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/SARTHAK/Stuff/Coding/VLSI/Project_7seg_disp/clk_for_d0.v" into library work
+Analyzing Verilog file "E:/SARTHAK/Stuff/Coding/VLSI/Project_7seg_disp/one_bit_cntr.v" into library work
+Analyzing Verilog file "C:/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module clk_for_d0
+Compiling module one_bit_cntr
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable E:/SARTHAK/Stuff/Coding/VLSI/Project_7seg_disp/one_bit_cntr_isim_beh.exe
+Fuse Memory Usage: 26000 KB
+Fuse CPU Usage: 389 ms

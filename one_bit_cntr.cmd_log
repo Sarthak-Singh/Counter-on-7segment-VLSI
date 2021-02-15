@@ -1,0 +1,64 @@
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc one_bit_cntr.ucf -p xc3s500e-fg320-4 one_bit_cntr.ngc one_bit_cntr.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o one_bit_cntr_map.ncd one_bit_cntr.ngd one_bit_cntr.pcf 
+par -w -intstyle ise -ol high -t 1 one_bit_cntr_map.ncd one_bit_cntr.ncd one_bit_cntr.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml one_bit_cntr.twx one_bit_cntr.ncd -o one_bit_cntr.twr one_bit_cntr.pcf -ucf one_bit_cntr.ucf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim one_bit_cntr.ngc clk_for_d0_synthesis.v 
+bitgen -intstyle ise -f one_bit_cntr.ut one_bit_cntr.ncd 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc one_bit_cntr.ucf -p xc3s500e-fg320-4 one_bit_cntr.ngc one_bit_cntr.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o one_bit_cntr_map.ncd one_bit_cntr.ngd one_bit_cntr.pcf 
+par -w -intstyle ise -ol high -t 1 one_bit_cntr_map.ncd one_bit_cntr.ncd one_bit_cntr.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml one_bit_cntr.twx one_bit_cntr.ncd -o one_bit_cntr.twr one_bit_cntr.pcf -ucf one_bit_cntr.ucf 
+bitgen -intstyle ise -f one_bit_cntr.ut one_bit_cntr.ncd 
+bitgen -intstyle ise -f one_bit_cntr.ut one_bit_cntr.ncd 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc one_bit_cntr.ucf -p xc3s500e-fg320-4 one_bit_cntr.ngc one_bit_cntr.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o one_bit_cntr_map.ncd one_bit_cntr.ngd one_bit_cntr.pcf 
+par -w -intstyle ise -ol high -t 1 one_bit_cntr_map.ncd one_bit_cntr.ncd one_bit_cntr.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml one_bit_cntr.twx one_bit_cntr.ncd -o one_bit_cntr.twr one_bit_cntr.pcf -ucf one_bit_cntr.ucf 
+bitgen -intstyle ise -f one_bit_cntr.ut one_bit_cntr.ncd 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc one_bit_cntr.ucf -p xc3s500e-fg320-4 one_bit_cntr.ngc one_bit_cntr.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o one_bit_cntr_map.ncd one_bit_cntr.ngd one_bit_cntr.pcf 
+par -w -intstyle ise -ol high -t 1 one_bit_cntr_map.ncd one_bit_cntr.ncd one_bit_cntr.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml one_bit_cntr.twx one_bit_cntr.ncd -o one_bit_cntr.twr one_bit_cntr.pcf -ucf one_bit_cntr.ucf 
+bitgen -intstyle ise -f one_bit_cntr.ut one_bit_cntr.ncd 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc one_bit_cntr.ucf -p xc3s500e-fg320-4 one_bit_cntr.ngc one_bit_cntr.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o one_bit_cntr_map.ncd one_bit_cntr.ngd one_bit_cntr.pcf 
+par -w -intstyle ise -ol high -t 1 one_bit_cntr_map.ncd one_bit_cntr.ncd one_bit_cntr.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml one_bit_cntr.twx one_bit_cntr.ncd -o one_bit_cntr.twr one_bit_cntr.pcf -ucf one_bit_cntr.ucf 
+bitgen -intstyle ise -f one_bit_cntr.ut one_bit_cntr.ncd 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc one_bit_cntr.ucf -p xc3s500e-fg320-4 one_bit_cntr.ngc one_bit_cntr.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o one_bit_cntr_map.ncd one_bit_cntr.ngd one_bit_cntr.pcf 
+par -w -intstyle ise -ol high -t 1 one_bit_cntr_map.ncd one_bit_cntr.ncd one_bit_cntr.pcf 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc one_bit_cntr.ucf -p xc3s500e-fg320-4 one_bit_cntr.ngc one_bit_cntr.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o one_bit_cntr_map.ncd one_bit_cntr.ngd one_bit_cntr.pcf 
+par -w -intstyle ise -ol high -t 1 one_bit_cntr_map.ncd one_bit_cntr.ncd one_bit_cntr.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml one_bit_cntr.twx one_bit_cntr.ncd -o one_bit_cntr.twr one_bit_cntr.pcf -ucf one_bit_cntr.ucf 
+bitgen -intstyle ise -f one_bit_cntr.ut one_bit_cntr.ncd 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc one_bit_cntr.ucf -p xc3s500e-fg320-4 one_bit_cntr.ngc one_bit_cntr.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o one_bit_cntr_map.ncd one_bit_cntr.ngd one_bit_cntr.pcf 
+par -w -intstyle ise -ol high -t 1 one_bit_cntr_map.ncd one_bit_cntr.ncd one_bit_cntr.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml one_bit_cntr.twx one_bit_cntr.ncd -o one_bit_cntr.twr one_bit_cntr.pcf -ucf one_bit_cntr.ucf 
+bitgen -intstyle ise -f one_bit_cntr.ut one_bit_cntr.ncd 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc one_bit_cntr.ucf -p xc3s500e-fg320-4 one_bit_cntr.ngc one_bit_cntr.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o one_bit_cntr_map.ncd one_bit_cntr.ngd one_bit_cntr.pcf 
+par -w -intstyle ise -ol high -t 1 one_bit_cntr_map.ncd one_bit_cntr.ncd one_bit_cntr.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml one_bit_cntr.twx one_bit_cntr.ncd -o one_bit_cntr.twr one_bit_cntr.pcf -ucf one_bit_cntr.ucf 
+bitgen -intstyle ise -f one_bit_cntr.ut one_bit_cntr.ncd 
+xst -intstyle ise -ifn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.xst" -ofn "E:/SARTHAK/Stuff/VLSI/Project_7seg_disp/one_bit_cntr.syr" 
